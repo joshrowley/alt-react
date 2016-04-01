@@ -8,7 +8,7 @@ module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf']
 
   extensions: [
-    browserify(files: 'assets/js/main.coffee', out: 'js/build.js'),
+    browserify(files: 'assets/js/app.js', out: 'js/build.js'),
     css_pipeline(files: 'assets/css/*.styl')
   ]
 

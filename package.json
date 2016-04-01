@@ -2,6 +2,7 @@
   "name": "alt-react",
   "description": "Play app using Alt.js and React",
   "dependencies": {
+    "alt": "^0.18.4",
     "autoprefixer-stylus": "0.8.x",
     "axis": "0.5.x",
     "coffee-script": "1.0.0",
